@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400;600&family=Roboto+Mono:wght@100;300;400&family=Rubik:wght@700&display=swap");
+
+body {
+  background-color: #222831;
+  /* color: #f037a5; */
+  /* height: 100vh; */
+}
+.myvideo {
+  background-color: #222831;
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  width: 15%;
+  height: 18%;
+  border: 1px solid gba(0, 0, 0, 0.139);
+  border-radius: 0.5rem;
+  z-index: 10 !important;
+  box-shadow: 1px 3px 10px #222831 !important;
+  border: 1px solid #222831;
+}
+.uservideo > video,
+.myvideo > video {
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+}
+.uservideo {
+  background-color: #393e46;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #393e46;
+  height: 100%;
+  width: 99.999999%;
+  border-radius: 0.3rem;
+  z-index: 5 !important;
+  box-shadow: 1px 3px 10px #393e46;
+}
+.videopanel {
+  /* background-color: #393e46 !important; */
+  margin-top: 0.6rem;
+  height: 80vh;
+  width: 95vw;
+  position: relative;
+  background-color: #eeeeee !important;
+}
+.apptitle {
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+.callname {
+  position: absolute;
+  bottom: 0rem;
+  left: 1rem;
+}
+.myname {
+  margin: 0 !important;
+  position: fixed;
+  bottom: 0.65rem;
+}
+.callname,
+.myname {
+  color: whitesmoke;
+  font-family: "Roboto Mono", monospace !important;
+  font-size: 0.8rem !important;
+  text-align: center;
+}
+.myavatar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.watchid {
+  color: #ffffff !important;
+}
+.call {
+  background-color: #1976d2;
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  color: white !important;
+  width: 100%;
+}
+.copy {
+  background-color: #1976d2;
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  color: white !important;
+  width: 100%;
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  margin-bottom: 0 !important;
+  justify-content: space-between !important;
+  /* height: 10vh; */
+  width: 95vw;
+}
+
+.callcontrol {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  width: 60%;
+}
+.callend {
+  background-color: rgb(252, 58, 58) !important;
+  height: 2.8rem !important;
+  width: 2.8rem !important;
+  border-radius: 50% !important;
+}
+
+.MuiOutlinedInput-input {
+  color: white !important;
+}
+
+.MuiOutlinedInput-input
+  > .MuiOutlinedInput-notchedOutline
+  > .css-1ftyaf0
+  > span {
+  color: #1976d2 !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  min-width: 16px !important;
+}
+.callcontrolchild {
+  color: #1976d2 !important;
+  background-color: rgba(255, 255, 255, 0.038) !important;
+  border: 1px solid #1976d2 !important;
+  height: 2.8rem !important;
+  width: 2.8rem !important;
+  border-radius: 50% !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+.notification {
+  z-index: 11;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  border: 1px solid #222831;
+  height: 3rem;
+  width: 70vw;
+  border-radius: 0.3rem;
+  background-color: #222831;
+  box-shadow: 1px 3px 10px #222831;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 0.5rem; */
+  /* text-align: center; */
+}
+.calling {
+  color: white;
+  font-family: "Roboto Mono", monospace !important;
+}
+.callaccept {
+  background-color: rgb(16, 179, 7) !important;
+  height: 2rem;
+  width: 2rem;
+  color: white !important;
+}
+.useravatar{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.uv{
+  height: 100%;
+  width: 100%;
+}
+.uv>video{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 12;
+}
+.uv>Avatar{
+  z-index: -8;
+}
