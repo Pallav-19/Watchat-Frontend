@@ -141,6 +141,17 @@ body {
   margin-left: 1rem !important;
   margin-right: 1rem !important;
 }
+.callcontrolchildclicked {
+  background-color: #1976d2 !important;
+  color:white !important;
+  border: 1px solid #1976d2 !important;
+  height: 2.8rem !important;
+  width: 2.8rem !important;
+  border-radius: 50% !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
 .notification {
   z-index: 11;
   position: absolute;
@@ -169,22 +180,22 @@ body {
   width: 2rem;
   color: white !important;
 }
-.useravatar{
+.useravatar {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.uv{
+.uv {
   height: 100%;
   width: 100%;
 }
-.uv>video{
+.uv > video {
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 12;
 }
-.uv>Avatar{
+.uv > Avatar {
   z-index: -8;
 }

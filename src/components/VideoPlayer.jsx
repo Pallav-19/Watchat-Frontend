@@ -23,14 +23,14 @@ function VideoPlayer() {
       <Paper className="videopanel" elevation={3}>
         <div className="uservideo">
           <p className="callname">{call.name}pp</p>
-         
-            <video
-              className="uservid"
-              ref={userVideo}
-              playsInline
-              autoPlay
-            ></video>
-{/* 
+
+          <video
+            className="uservid"
+            ref={userVideo}
+            playsInline
+            autoPlay
+          ></video>
+          {/* 
             <Avatar
               className="useravatar"
               sx={{ bgcolor: deepOrange[500], height: 50, width: 50 }}
@@ -41,7 +41,6 @@ function VideoPlayer() {
                 <PersonIcon />
               )}
             </Avatar> */}
-         
 
           <div className="myvideo">
             {stream ? (
